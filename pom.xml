@@ -12,8 +12,9 @@
         <dependency>
             <groupId>io.mateu</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.11.97</version>
+            <version>1.18.11.96</version>
         </dependency>
+
     </dependencies>
 
 
