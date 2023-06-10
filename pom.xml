@@ -8,5 +8,14 @@
     <artifactId>JavaNote</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>io.mateu</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.11.97</version>
+        </dependency>
+    </dependencies>
+
+
 
 </project>
