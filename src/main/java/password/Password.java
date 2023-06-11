@@ -1,3 +1,5 @@
+package password;
+
 import lombok.Data;
 
 /**
