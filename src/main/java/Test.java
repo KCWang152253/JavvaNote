@@ -9,6 +9,7 @@ public class Test {
 
     public static void main(String[] args) {
 
+        //构建者模式
         Person person = Person.builder().age(2).sex("男").build();
 
         System.out.println(person);
