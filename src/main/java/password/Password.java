@@ -10,7 +10,7 @@ import lombok.Data;
 
 public enum Password {
 
-    GIT_HUB("mysql root", "kcwang"),
+    GIT_HUB("KCWang152253", "wangcheng152253"),
     Mysql("root", "kcwang"),
     ;
     private String user;
