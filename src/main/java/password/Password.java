@@ -11,6 +11,7 @@ import lombok.Data;
 public enum Password {
 
     GIT_HUB("mysql root", "kcwang"),
+    Mysql("root", "kcwang"),
     ;
     private String user;
     private String password;
