@@ -11,7 +11,6 @@ import lombok.NoArgsConstructor;
  * @date 2023/6/11 下午12:49
  */
 @Builder
-//@AllArgsConstructor
 @Data
 public class Person {
 
