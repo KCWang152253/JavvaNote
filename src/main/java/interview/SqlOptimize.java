@@ -21,7 +21,6 @@ package interview;
  *                  方向2：group by 后面的字段加索引
  *                  方向3：尽量只使用内存临时表，如果预估数据量比较大，我们使用SQL_BIG_RESULT 这个提示直接用磁盘临时表
  *
-
  *
  *
  *
