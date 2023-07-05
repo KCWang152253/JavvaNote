@@ -19,7 +19,7 @@ public class MaxSubArray {
 
     public static void main(String[] args) {
         int[] a = {1, 4, 6, 8, -9, 3, 5, -6, 4, 2};
-//        System.out.println(findMax(a));
+        System.out.println(findMax(a));
         int[] ints = finaTwoMax(a, 2);
         for (int i = 0; i < ints.length; i++) {
             System.out.println(ints[i]);
