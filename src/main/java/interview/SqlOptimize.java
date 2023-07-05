@@ -5,7 +5,7 @@ package interview;
  * @version 1.0 sql优化celue
  * @date 2023/7/5 下午7:05
  *
- * sql 执行索引计划，关注列：type:system->const > eq_ref >ref > ref_or_null >index_merge >range > index > ALL
+ * sql 执行索引计划，关注列：type:system->const > eq_ref（主键或者惟一索引） >ref(使用的索引列) > ref_or_null >index_merge >range > index > ALL
  *                       key:实际使用的索引
  *                       Extra:Using temporary(使用临时表)、Using filesort(使用排序)、、Using index condition(使用索引下推)、Using index、Using where
  * 索引失效的场景：未遵循最左匹配原则
