@@ -6,4 +6,9 @@ package batch;
  * @date 2023/7/5 下午9:14
  */
 public class Retry {
+    public static void main(String[] args) {
+
+    }
+
+
 }
