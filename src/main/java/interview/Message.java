@@ -9,4 +9,5 @@ package interview;
  * @date 2023/7/5 下午9:17
  */
 public class Message {
+
 }
