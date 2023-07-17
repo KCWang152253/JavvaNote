@@ -9,6 +9,11 @@ package redis;
  *
  *  亿级系统：存的进去，取的出来，能快速统计
  *
+ *
+     登录
+    [root@ecs-25376 root]# redis-cli -h 127.0.0.1 -p 6379
+
+ *
  *  数据结构：
  *      redis 9种数据结构由5种最基本的数据结构（String、List、Hash、Set、Sorted Set（zset）） 加 bitmap、geohash、hyperloglog、streams 组成。
  *      命令查看： redis 客户端 help @类型名词
@@ -54,6 +59,10 @@ package redis;
  *              为什么redis集群的最大槽数是16384个（crc算法）？
  *              节点不超过1000个
  *           redis上的hash结构，技术上没错，但是无法落地，按照天猫淘宝的体谅一个月60G,redis被干崩
+ *           命令：
+ *               添加：PFADD key [element [element ...]]
+ *               统计：PFCOUNT key [key ...]
+ *               合并：PFMERGE destkey sourcekey [sourcekey ...]
  *
  *           geohash：美团推荐距自己多少公里以内的酒店、单车、等商品店铺
  *           Redis GEO 操作方法有：
