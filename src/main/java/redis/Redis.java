@@ -24,6 +24,8 @@ package redis;
  *          PX:key在多少毫秒后过期
  *          NX: 当key不存在时，才创建key,效果等同于setnx
  *          XX: 当key存在时，覆盖key
+ *          Incrby 命令：将 key 所储存的值加上给定的增量值（increment） 。lncrby age 11 说明：将key中储存的数字值增加指定步长11，
+ *                      并返回增加后的值（只能用在整型，字符串啥的会报错）
  *
  *          Hash: 手机端的购物车
  *          数据结构 Map<string,Map<Object,Object>>
@@ -31,11 +33,18 @@ package redis;
  *
  *          List：微信公众号订阅的消息、商品评论列表
  *          数据结构：双端的链表结构
+ *          Rpush 命令：在列表中右边添加一个或多个值 rpush list a b c d e
+ *          Lrange 命令：获取列表指定下标范围内的元素 lrange list 0 -1 下标0到-1是查询所有
+ *          Lpop 命令：移出并获取列表的第一个元素 lpop list
  *
  *          Set:抽奖、微信朋友圈点赞、qq、新浪微博等社交软件
  *          集合运算：差集 SDIFF 交集 SINTER 并集 SUNION
+ *          Scard 命令：获取集合的成员数 scard set
+ *          Srandmember 命令：返回集合中一个或多个随机数 srandmember set 2
  *
  *          zset：排行榜
+ *          Zadd 命令：向有序集合添加一个或多个成员，或者更新已存在成员的分数 zadd zset a 3500 b 4000
+ *          Zincrby 命令：有序集合中对指定成员的分数加上增量 increment zincrby zset 300 peter 给peter分数加上300
  *
  *          bitmap：是string的子类，不是字符串，而是按位扩容
  *          排序、分页、高并发、高性能：list（容易读到旧数据）、 zset（推荐）
@@ -47,6 +56,27 @@ package redis;
  *
  *          痛点：存的进、取的快、多统计
  *          一亿位的bitmap 约占用12M的内存
+ *          setbit
+ *          格式：SETBIT key offset value
+ *          getbit
+ *          格式：GETBIT key offset
+ *          bitcount
+ *          格式：BITCOUNT key [start] [end]
+ *              start 和 end 参数都可以使用负数值： -1 表示最后一个字节， -2 表示倒数第二个字节，以此类推。另外，
+ *              对于不存在的 key 被当成是空字符串来处理，因此对一个不存在的 key 进行 BITCOUNT 操作，结果为 0 。
+ *          bitpos
+ *          格式：BITPOS key bit [start] [end]
+ *          功能：返回 key 指定的 BitMap 中第一个值为指定值 bit(非 0 即 1) 的二进制位的位置。pos，即 position，位置。在默认情况下，
+ *          命令将检测整个 BitMap，但用户也可以通过可选的 start 参数和 end 参数指定要检测的范围。
+ *
+ *          bitop
+ *          格式：BITOP operation destkey key [key …]
+ *          功能：对一个或多个 BitMap 字符串 key 进行二进制位操作，并将结果保存到 destkey 上。
+ *          operation 可以是 AND 、 OR 、 NOT 、 XOR 这四种操作中的任意一种：
+ *          BITOP AND destkey key [key …] ：对一个或多个 BitMap 执行按位与操作，并将结果保存到 destkey 。
+ *          BITOP OR destkey key [key …] ：对一个或多个 BitMap 执行按位或操作，并将结果保存到 destkey 。
+ *          BITOP XOR destkey key [key …] ：对一个或多个 BitMap 执行按位异或操作，并将结果保存到 destkey 。
+ *          BITOP NOT destkey key ：对给定 BitMap 执行按位非操作，并将结果保存到 destkey 。
  *
  *          名词：
  *              UV：Unique Visitor 独立访客，一般理解为客户端ip（去重）
