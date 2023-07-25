@@ -14,7 +14,8 @@ package dockerandmaven;
  * Docker基本命令
  *  #启动容器
  *  docker start rmqserver rmqbroker #停止删除容器
- *  docker stop rmqbroker rmqserver docker rm rmqbroker rmqserver
+ *  docker stop rmqbroker rmqserver
+ *  docker rm rmqbroker rmqserver
  *  macos命令行启动docker服务
  *      方法 1 : 通过 launchctl 查看 docker server, 记住docker server 名
  *          launchctl list | grep docker
@@ -46,7 +47,6 @@ package dockerandmaven;
         #内网IP
         namesrvAddr=192.168.66.66:9876
         brokerName=kkb-a
-
  *
  */
 public class DockerAndMaven {
