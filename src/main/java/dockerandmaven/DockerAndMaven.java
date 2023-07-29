@@ -35,7 +35,10 @@ package dockerandmaven;
         foxiswho/rocketmq:server-4.3.2
 
         #创建broker
-        docker run -di -p 10911:10911 -p 10909:10909 --name=rmqbroker -e "JAVA_OPTS=-Duser.home=/opt" -e "JAVA_OPT_EXT=-server -Xms128m -Xmx128m -Xmn128m" foxiswho/rocketmq:broker-4.3.2
+        docker run -di -p 10911:10911 -p 10909:10909 --name=rmqbroker -e "JAVA_OPTS=-Duser.home=/opt" -e "JAVA_OPT_EXT=-server -Xms128m -Xmx128m -Xmn128m"
+-v /Users/kcwang/docker/rocketmq/conf/broker.conf:/opt/rocketmq-4.3.2/conf/broker.conf
+foxiswho/rocketmq:broker-4.3.2
+
 
         #配置broker容器的配置文件
         docker exec -it rmqbroker /bin/bash
@@ -47,6 +50,32 @@ package dockerandmaven;
         #内网IP
         namesrvAddr=192.168.66.66:9876
         brokerName=kkb-a
+
+        初始化文件夹
+        /Users/kcwang/docker/rocketmq/data/namesrv/logs
+mkdir -p  /Users/kcwang/docker/rocketmq/conf
+
+
+
+docker run -di -p 10911:10911 -p 10909:10909 --name=rmqbroker -e "JAVA_OPTS=-Duser.home=/opt"
+-e "JAVA_OPT_EXT=-server -Xms128m -Xmx128m -Xmn128m" foxiswho/rocketmq:broker-4.3.2 -c /etc/rocketmq/broker.conf
+
+
+docker run -d  \
+--restart=always \
+--name rmqbroker \
+--link rmqnamesrv:namesrv \
+-p 10911:10911 \
+-p 10909:10909 \
+-v  /docker/rocketmq/data/broker/logs:/root/logs \
+-v  /docker/rocketmq/data/broker/store:/root/store \
+-v /docker/rocketmq/conf/broker.conf:/opt/rocketmq-4.4.0/conf/broker.conf \
+-e "NAMESRV_ADDR=namesrv:9876" \
+-e "MAX_POSSIBLE_HEAP=200000000" \
+rocketmqinc/rocketmq:4.3.2 \
+
+sh mqbroker -c /opt/rocketmq-4.3.2/conf/broker.conf
+
  *
  */
 public class DockerAndMaven {
