@@ -16,7 +16,7 @@ package interview;
  *      3. synchronize锁操作共享变量
  *      最后总结：
  *      volatile 是为了保证资源被多个线程并发正确操作。（可见性，禁止重排序）
- *      ThreadLocal是为了保证资源不被多线程同时操作。（牺牲空间）
+ *      ThreadLocal 是为了保证资源不被多线程同时操作。（牺牲空间）
  *      synchronize是为了多线程下 同一时刻只有一个线程操作资源。（牺牲时间，保证原子性）
 
  *
