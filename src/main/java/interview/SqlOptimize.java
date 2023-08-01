@@ -2,7 +2,7 @@ package interview;
 
 /**
  * @author KCWang
- * @version 1.0 sql优化celue
+ * @version 1.0 sql优化
  * @date 2023/7/5 下午7:05
  *
  * sql 执行索引计划，关注列：type:system->const > eq_ref（主键或者惟一索引） >ref(使用的索引列) > ref_or_null >index_merge >range > index > ALL
