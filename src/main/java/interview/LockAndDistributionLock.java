@@ -45,7 +45,8 @@ package interview;
  *
  * 3、finally中释放锁+全局唯一标识
  *
- * try{ String result = jedis.set(lockKey, requestId, "NX", "PX", expireTime); if ("OK".equals(result)) { return true; } return false; } finally { if (jedis.get(lockKey).equals(requestId)) { jedis.del(lockKey); return true; } return false; }
+ * try{ String result = jedis.set(lockKey, requestId, "NX", "PX", expireTime); if ("OK".equals(result)) { return true; } return false; }
+ * finally { if (jedis.get(lockKey).equals(requestId)) { jedis.del(lockKey); return true; } return false; }
  * 无论代码执行成功或失败了，都需要释放锁。如果有异常了，到达超时时间，锁还是会被redis自动释放。
  * 而requestId是全局唯一的，保证了自己只能释放自己加的锁，不存在加锁和释放别人锁的情况。
  *
@@ -58,11 +59,16 @@ package interview;
  * 如果锁达到了超时时间，但业务代码还没执行完怎么办？
  * 看门狗可以通过定时任务不断刷新锁的获取事件，从而在用户获取锁到释放锁期间保持一直持有锁。
  *
- * eg:我们可以使用TimerTask类，来实现自动续期的功能：获取锁之后，自动开启一个定时任务，每隔10秒钟，自动刷新一次过期时间。这种机制就是redisson框架中的watch dogTimer timer = new Timer(); timer.schedule(new TimerTask() { @Overridepublicvoidrun(Timeout timeout)throws Exception { //自动续期逻辑 } }, 10000, TimeUnit.MILLISECONDS);
+ * eg:我们可以使用TimerTask类，来实现自动续期的功能：获取锁之后，自动开启一个定时任务，每隔10秒钟，自动刷新一次过期时间。这种机制就是redisson框架中的watch dogTimer timer = new Timer();
+ * timer.schedule(new TimerTask() { @Overridepublicvoidrun(Timeout timeout)throws Exception { //自动续期逻辑 } }, 10000, TimeUnit.MILLISECONDS);
  * 三、基于Zookeeper实现分布式锁
  * ZooKeeper是一个为分布式应用提供一致性服务的开源组件，它内部是一个分层的文件系统目录树结构，规定同一个目录下只能有一个唯一文件名。基于ZooKeeper实现分布式锁的步骤如下：
  *
- * （1）创建一个目录mylock；（2）线程A想获取锁就在mylock目录下创建临时顺序节点；（3）获取mylock目录下所有的子节点，然后获取比自己小的兄弟节点，如果不存在，则说明当前线程顺序号最小，获得锁；（4）线程B获取所有节点，判断自己不是最小节点，设置监听比自己次小的节点；（5）线程A处理完，删除自己的节点，线程B监听到变更事件，判断自己是不是最小的节点，如果是则获得锁。
+ * （1）创建一个目录mylock；
+ * （2）线程A想获取锁就在mylock目录下创建临时顺序节点；
+ * （3）获取mylock目录下所有的子节点，然后获取比自己小的兄弟节点，如果不存在，则说明当前线程顺序号最小，获得锁；
+ * （4）线程B获取所有节点，判断自己不是最小节点，设置监听比自己次小的节点；
+ * （5）线程A处理完，删除自己的节点，线程B监听到变更事件，判断自己是不是最小的节点，如果是则获得锁。
  * 通常使用ZooKeeper的一个客户端Curator，Curator提供的InterProcessMutex是分布式锁的实现，acquire方法用于获取锁，release方法用于释放锁。
  *
  * 四、总结（优缺点）
