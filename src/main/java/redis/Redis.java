@@ -10,7 +10,19 @@ package redis;
  *  亿级系统：存的进去，取的出来，能快速统计
  *
  *
-     登录
+ *   启动redis服务
+ *       //方式一：使用brew帮助我们启动软件
+ *       brew services start redis
+ *       //方式二
+ *       redis-server /usr/local/etc/redis.conf
+ *       //执行以下命令
+ *       redis-server
+ *
+ *  关闭redis服务
+ *      redis-cli shutdown
+ *      强行终止redis
+ *      sudo pkill redis-server
+     登录客户端
     [root@ecs-25376 root]# redis-cli -h 127.0.0.1 -p 6379
 
  *
