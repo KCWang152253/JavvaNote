@@ -38,6 +38,7 @@ package redis;
  *          XX: 当key存在时，覆盖key
  *          Incrby 命令：将 key 所储存的值加上给定的增量值（increment） 。lncrby age 11 说明：将key中储存的数字值增加指定步长11，
  *                      并返回增加后的值（只能用在整型，字符串啥的会报错）
+ *          适配中小型厂，太多转发量会时redis崩溃
  *
  *          Hash: 手机端的购物车
  *          数据结构 Map<string,Map<Object,Object>>
@@ -58,13 +59,17 @@ package redis;
  *          Zadd 命令：向有序集合添加一个或多个成员，或者更新已存在成员的分数 zadd zset a 3500 b 4000
  *          Zincrby 命令：有序集合中对指定成员的分数加上增量 increment zincrby zset 300 peter 给peter分数加上300
  *
- *          bitmap：是string的子类，不是字符串，而是按位扩容
+ *          mysql:300万-500万数据需要分库分表
+ *          多维度的统计：聚合、排序、二值、基数统计（去重统计）
+ *          bitmap：是string的子类，不是字符串，而是按位扩容,本质是数组
  *          排序、分页、高并发、高性能：list（容易读到旧数据）、 zset（推荐）
  *          bitmap：签到、打卡、亿级数据的收集+统计、二值统计、
  *          底层编码：实质是二进制的ascii编码表对应 man ascii
  *          strlen:安装字节来统计，不是字符串长度而是字节数
- *          缺点：亿级以上的去重统计承担不了 1亿需要12M
+ *          缺点：亿级以上的去重统计承担不了 1亿需要12M = 10^8/8/1024/1024
  *          优点：亿级 结果是精确的
+ *          使用场景：日活跃3000万月活9亿，这样的数据一条bitmap就可以记录
+ *          命令：setbit getbit  BITCOUNT strlen bitop(连续统计)
  *
  *          痛点：存的进、取的快、多统计
  *          一亿位的bitmap 约占用12M的内存
@@ -80,6 +85,7 @@ package redis;
  *          格式：BITPOS key bit [start] [end]
  *          功能：返回 key 指定的 BitMap 中第一个值为指定值 bit(非 0 即 1) 的二进制位的位置。pos，即 position，位置。在默认情况下，
  *          命令将检测整个 BitMap，但用户也可以通过可选的 start 参数和 end 参数指定要检测的范围。
+ *          bitmap支持的最大位数是2的32次方，使用512m可以存储42.9亿的字节信息
  *
  *          bitop
  *          格式：BITOP operation destkey key [key …]
@@ -95,8 +101,12 @@ package redis;
  *              PV: Page View,页面浏览量 （不用去重）
  *              DAU：Daily Active User:日活跃用户量
  *              MAU：Monthly Active User:月活跃用户量
- *          hyperloglog：基数统计（去重 ）通过牺牲准确率来换取空间 概率算法不直接存储数据本身，适用于亿级流量，如访问淘宝网页的去重独立ip的数量
+ *          hyperloglog：去重复统计功能的基数估计算法（去重 ）通过牺牲准确率来换取空间，误差在0.81%是一种概率算法的实现
+ *          对于不要求绝对准确率的场景下可以使用，概率算法不直接存储数据本身，适用于亿级流量，如访问淘宝网页的去重独立ip的数量
  *          redis之父：安蒂雷斯
+ *          用bitmap统计一万个样本（亿级），大约需要内存117.1875G将近120G,可见亿级基数统计不适合用bitmap,但是bitmap统计是精确计算的
+ *          优点：在Redis里面，每个HyperLogLog键只需花费12KB内存，就可以计算接近2^64个不同元素的基数，这和计算基数时，元素越多耗费内存越多的集合形成鲜明对比
+ *               因为HyperLogLog只会根据输入的元素来计算基数，而不会储存输入元素本身，所以不像其他集合那样，返回输入的各个元素。
  *          面试题：
  *              为什么redis集群的最大槽数是16384个（crc算法）？
  *              节点不超过1000个
