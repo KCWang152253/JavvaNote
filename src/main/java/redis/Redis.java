@@ -43,21 +43,39 @@ package redis;
  *          Hash: 手机端的购物车
  *          数据结构 Map<string,Map<Object,Object>>
  *          hset key field value [field value ...]
+ *          hgetall key  获取所有键值对
+ *          hincyby
+ *          hlen
  *
- *          List：微信公众号订阅的消息、商品评论列表
- *          数据结构：双端的链表结构
+ *          List：微信公众号订阅的消息、商品评论列表（key 存id value 存json形式的字符串）
+ *          数据结构：双端的链表结构,容量为2^32-1,大概40多亿，主要功能有push/pop等，一般用在栈、队列、消息队列等场景。
  *          Rpush 命令：在列表中右边添加一个或多个值 rpush list a b c d e
  *          Lrange 命令：获取列表指定下标范围内的元素 lrange list 0 -1 下标0到-1是查询所有
  *          Lpop 命令：移出并获取列表的第一个元素 lpop list
+ *          LRANGE key start stop 命令：查看列表 0 到-1 获取所有
+ *          LLEN key 命令：列表个数
  *
- *          Set:抽奖、微信朋友圈点赞、qq、新浪微博等社交软件
- *          集合运算：差集 SDIFF 交集 SINTER 并集 SUNION
- *          Scard 命令：获取集合的成员数 scard set
- *          Srandmember 命令：返回集合中一个或多个随机数 srandmember set 2
+ *          Set:抽奖（Srandmember、spop）、微信朋友圈点赞、qq、新浪微博等社交软件
+ *          sadd:添加
+ *          srem:删除
+ *          smembers:遍历所有元素
+ *          sismember:判断元素是否在集合中
+ *          集合运算：差集 SDIFF（推荐可能认识的人） 交集 SINTER 并集 SUNION
+ *          Scard 命令：获取集合的成员数 scard key
+ *          Srandmember 命令：返回集合中一个或多个随机数，元素不删除，默认是1  srandmember set 2
+ *          spop:从集合中随机弹出一个元素，出一个删一个
  *
- *          zset：排行榜
- *          Zadd 命令：向有序集合添加一个或多个成员，或者更新已存在成员的分数 zadd zset a 3500 b 4000
- *          Zincrby 命令：有序集合中对指定成员的分数加上增量 increment zincrby zset 300 peter 给peter分数加上300
+ *          zset：排行榜 QPS较高时不适合，千万级别，主命令是单线程，一瞬间打爆redis会有一个数量限制 10万+降温
+ *          Zadd key score member 命令：向有序集合添加一个或多个成员，或者更新已存在成员的分数 zadd zset a 3500 b 4000
+ *          zrange key start stop:按照分数从小到大的顺序返回
+ *          zscore key member:获取元素的分数
+ *          Zincrby key increment member 命令：有序集合中对指定成员的分数加上增量 increment zincrby zset 300 peter 给peter分数加上300
+ *          zrem key member:删除元素
+ *          zrangebyscore key min max:获取指定分数范围的元素
+ *          zcard key:获取集合元素的数量
+ *          zcount key min max:获取指定分数范围的元素的个数
+ *          zremrangebyrank key start stop:按照排名范围删除元素
+ *          获取元素的排名：zrank key member ：从小到大 zrevrank key member 从大到小
  *
  *          mysql:300万-500万数据需要分库分表
  *          多维度的统计：聚合、排序、二值、基数统计（去重统计）
@@ -105,16 +123,18 @@ package redis;
  *          对于不要求绝对准确率的场景下可以使用，概率算法不直接存储数据本身，适用于亿级流量，如访问淘宝网页的去重独立ip的数量
  *          redis之父：安蒂雷斯
  *          用bitmap统计一万个样本（亿级），大约需要内存117.1875G将近120G,可见亿级基数统计不适合用bitmap,但是bitmap统计是精确计算的
- *          优点：在Redis里面，每个HyperLogLog键只需花费12KB内存，就可以计算接近2^64个不同元素的基数，这和计算基数时，元素越多耗费内存越多的集合形成鲜明对比
+ *          优点：在Redis里面，每个HyperLogLog键只需花费12KB内存（16384*6/8=12kb），就可以计算接近2^64个不同元素的基数，这和计算基数时，元素越多耗费内存越多的集合形成鲜明对比
  *               因为HyperLogLog只会根据输入的元素来计算基数，而不会储存输入元素本身，所以不像其他集合那样，返回输入的各个元素。
  *          面试题：
- *              为什么redis集群的最大槽数是16384个（crc算法）？
+ *              为什么redis集群的最大槽数是16384个（crc16算法产生hash值有16bit,该算法可以产生2^16=65536个值）？
  *              节点不超过1000个
+ *              集群间使用位图传播
  *           redis上的hash结构，技术上没错，但是无法落地，按照天猫淘宝的体谅一个月60G,redis被干崩
  *           命令：
  *               添加：PFADD key [element [element ...]]
  *               统计：PFCOUNT key [key ...]
  *               合并：PFMERGE destkey sourcekey [sourcekey ...]
+ *           简历：上线公司首页每天uv访问量去重ip独立uv的统计。
  *
  *           geohash：美团推荐距自己多少公里以内的酒店、单车、等商品店铺
  *           Redis GEO 操作方法有：
