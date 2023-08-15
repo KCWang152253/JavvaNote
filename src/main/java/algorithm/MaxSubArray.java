@@ -73,7 +73,6 @@ public class MaxSubArray {
         }
         return null;
     }
-
     /***
      * @Description 连续字符串中没有相同字符的最大子字符串
      * @param s
@@ -106,7 +105,8 @@ public class MaxSubArray {
             }
         }
 
-        return buffer;
+        return buffer.length()>target.length()?buffer:target;
 
     }
+
 }
