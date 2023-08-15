@@ -12,7 +12,7 @@ public enum Password {
 
     GIT_HUB("KCWang152253", "wangcheng152253"),
     Mysql("root", "kcwang"),
-    闻喜华庭("房间密码","302798"),
+    闻喜华庭("闻喜华庭1幢1901房间密码","302798"),
     ;
     private String user;
     private String password;
