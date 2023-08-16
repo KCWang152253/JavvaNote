@@ -6,6 +6,7 @@ package shangyin;
  * @date 2023/8/8 下午3:04
  *
  *      C语言 分期函数后缀 txn
+ *      老系统路由：Bridge->switch->stub->服务
  *      分期开发文档
  *          1.授信、用信
  *
