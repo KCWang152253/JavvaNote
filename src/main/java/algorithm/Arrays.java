@@ -18,6 +18,7 @@ public class Arrays {
 
         //关于「删除有序数组重复项」的通解
         new Arrays().process(new int[]{2, 3, 5, 5, 5, 5, 8, 9}, 2);
+        int[] ints = {2, 3, 5, 5, 5, 5, 8, 9};
 
 
     }
