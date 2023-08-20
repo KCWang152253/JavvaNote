@@ -38,6 +38,8 @@ public class MaxSubArray {
         //交易次数不限的最大值
         new MaxSubArray().maxProfit(new int[]{1, 4, 6, 8});
         System.out.println(new MaxSubArray().maxProfit_2(new int[]{1, 4, 6, 8}));
+        System.out.println(new MaxSubArray().maxProfit_3(new int[]{1, 4, 6, 8}));
+        System.out.println(new MaxSubArray().maxProfit_4(new int[]{1, 4, 6, 8}));
     }
 
 
@@ -225,8 +227,8 @@ public class MaxSubArray {
         dp[0][0] = 0;
         dp[0][1] = -data[0];
         for (int i = 1; i < data.length; i++) {
-            dp[i][0] = Math.max(dp[i - 1][0], dp[i - 1][1] + data[1]);
-            dp[i][1] = Math.max(dp[i - 1][1], dp[i - 1][0] - data[1]);
+            dp[i][0] = Math.max(dp[i - 1][0], dp[i - 1][1] + data[i]);
+            dp[i][1] = Math.max(dp[i - 1][1], dp[i - 1][0] - data[i]);
         }
         return dp[data.length - 1][0];
     }
@@ -254,12 +256,33 @@ public class MaxSubArray {
         int precash = cash;
         int prehold = hold;
         for (int i = 1; i < data.length; i++) {
-            cash = Math.max(precash, prehold + data[1]);
-            hold = Math.max(prehold, precash - data[1]);
+            cash = Math.max(precash, prehold + data[i]);
+            hold = Math.max(prehold, precash - data[i]);
             precash = cash;
             prehold = hold;
         }
         return cash;
     }
 
+    /***
+     * @Description  算法需要一些列步骤，每个步骤都面临多个选择，局部最优解得到全局最优解
+     * @param data
+     * @Return int
+     * @Author K.C.Wang
+     * @Date 2023/8/20 下午9:09
+     **/
+    private int maxProfit_4(int[] data){
+
+        if (data.length < 2) {
+            return 0;
+        }
+        int res = 0;
+        for (int i = 1; i < data.length; i++) {
+            if (data[i]-data[i-1]>0){
+                res +=(data[i]-data[i-1]);
+            }
+
+        }
+        return res;
+    }
 }
