@@ -226,7 +226,7 @@ public class MaxSubArray {
         dp[0][1] = -data[0];
         for (int i = 1; i < data.length; i++) {
             dp[i][0] = Math.max(dp[i - 1][0], dp[i - 1][1] + data[1]);
-            dp[i][1] = Math.max(dp[i - 1][0], dp[i - 1][1] - data[1]);
+            dp[i][1] = Math.max(dp[i - 1][1], dp[i - 1][0] - data[1]);
         }
         return dp[data.length - 1][0];
     }
