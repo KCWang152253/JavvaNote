@@ -281,7 +281,6 @@ public class MaxSubArray {
             if (data[i]-data[i-1]>0){
                 res +=(data[i]-data[i-1]);
             }
-
         }
         return res;
     }
