@@ -15,6 +15,11 @@ public class Arrays {
 //        java.util.Arrays.asList(new Arrays().newArray(new int[]{2,3,5,5,5,5,8,9})).stream().peek((s) -> System.out.println(s));
 
         System.out.println(new Arrays().newArray(new int[]{2, 3, 5, 5, 5, 5, 8, 9}));
+
+        //关于「删除有序数组重复项」的通解
+        new Arrays().process(new int[]{2, 3, 5, 5, 5, 5, 8, 9}, 2);
+
+
     }
 
     private  int newArray(int[] data) {
@@ -36,5 +41,25 @@ public class Arrays {
         }
         return p0+1;
     }
+
+
+
+    /**
+     * 关于「删除有序数组重复项」的通解
+     * 为了让解法更具有一般性，我们将原问题的「保留 2 位」修改为「保留 k 位」。
+     * @param nums
+     * @param k
+     * @return
+     */
+    int process(int[] nums, int k) {
+        int u = 0;
+        for (int x : nums) {
+            if (u < k || nums[u - k] != x){
+                nums[u++] = x;
+            }
+        }
+        return u;
+    }
+
 
 }
