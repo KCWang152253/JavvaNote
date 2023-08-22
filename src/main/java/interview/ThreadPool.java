@@ -52,6 +52,9 @@ public class ThreadPool {
         }).start();
         new Thread(new ThreadPool()::t1,"t2").start();
         //lambda一行的时候默认有返回值
+        new ThreadPool().a(() ->{
+            int a =1;
+        });
 //        new ThreadPool().a(() ->1);
         new ThreadPool().a(new ThreadPool()::t1);
     }
