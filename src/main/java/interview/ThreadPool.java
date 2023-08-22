@@ -2,6 +2,7 @@ package interview;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
+import java.util.function.Consumer;
 import java.util.function.Supplier;
 
 /**
@@ -50,8 +51,11 @@ public class ThreadPool {
             }
         }).start();
         new Thread(new ThreadPool()::t1,"t2").start();
+        //lambda一行的时候默认有返回值
+//        new ThreadPool().a(() ->1);
         new ThreadPool().a(new ThreadPool()::t1);
     }
+
 
 
 
@@ -63,7 +67,7 @@ public class ThreadPool {
     }
 
 
-    private int a(Supplier s){
-        return (int) s.get();
+    private int a(Runnable s){
+        return 1;
     }
 }
