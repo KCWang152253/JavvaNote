@@ -50,6 +50,7 @@ public class ThreadPool {
             }
         }).start();
         new Thread(new ThreadPool()::t1,"t2").start();
+        new ThreadPool().a(new ThreadPool()::t1);
     }
 
 
