@@ -56,6 +56,7 @@ public class ThreadPool {
             int a =1;
         });
 //        new ThreadPool().a(() ->1);
+        //接口抽象方法没有返回值，引用的方法可以有返回值也可以没有
         new ThreadPool().a(new ThreadPool()::t1);
     }
 
