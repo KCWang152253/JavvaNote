@@ -1,6 +1,9 @@
 package interview;
 
 
+import java.util.concurrent.*;
+
+
 /**
  * @author KCWang
  * @version 1.0
@@ -63,7 +66,17 @@ public class ThreadPool {
 //        new ThreadPool().a(() ->1);
         //接口抽象方法没有返回值，引用的方法可以有返回值也可以没有
         new ThreadPool().a(new ThreadPool()::t1);
+
+        /**
+         * 创建固定线程池
+         *
+         * 线程池不允许使用Executors去创建，而是通过ThreadPoolExecutor的方式，这样的处理方式让写的同学更加明确线程池的运行规则，规避资源耗尽的风险
+         */
+        ExecutorService pool = Executors.newFixedThreadPool(3);
+//        ThreadPoolExecutor poo = new ThreadPoolExecutor(1, 3, 0L, TimeUnit.MILLISECONDS,
+//                new LinkedBlockingQueue<Runnable>());
     }
+
 
 
 
