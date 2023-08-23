@@ -71,10 +71,16 @@ public class ThreadPool {
          * 创建固定线程池
          *
          * 线程池不允许使用Executors去创建，而是通过ThreadPoolExecutor的方式，这样的处理方式让写的同学更加明确线程池的运行规则，规避资源耗尽的风险
+         * LinkedBlockingQueue是一个用链表实现的有界阻塞队列，容量可以选择进行设置，不设置的话，Executors默认是一个无边界的阻塞队列，最大长度为Integer.MAX_VALUE。
+         * 对于一个无边界队列来说，是可以不断的向队列中加入任务的，这种情况下就有可能因为任务过多而导致内存溢出问题
+         *
+         * 上面提到的问题主要体现在newFixedThreadPool和newSingleThreadExecutor两个工厂方法上，
+         * 并不是说newCachedThreadPool和newScheduledThreadPool这两个方法就安全了，这两种方式创建的最大线程数可能是Integer.MAX_VALUE，而创建这么多线程，必然就有可能导致OOM。
+         *
          */
         ExecutorService pool = Executors.newFixedThreadPool(3);
-//        ThreadPoolExecutor poo = new ThreadPoolExecutor(1, 3, 0L, TimeUnit.MILLISECONDS,
-//                new LinkedBlockingQueue<Runnable>());
+        ThreadPoolExecutor poo = new ThreadPoolExecutor(1, 3, 0L, TimeUnit.MILLISECONDS,
+                new LinkedBlockingQueue<Runnable>());
     }
 
 
