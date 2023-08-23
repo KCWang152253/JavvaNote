@@ -1,13 +1,18 @@
 package interview;
 
-import java.util.concurrent.Executors;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.function.Consumer;
-import java.util.function.Supplier;
 
 /**
  * @author KCWang
- * @version 1.0 线程的状态 创建->准备就绪->执行->阻塞->准备就绪->执行->死亡
+ * @version 1.0
+ *
+ *              线程终止：
+ *                  终止线程的三种方法
+ *                  1. 使用退出标志，使线程正常退出，也就是当run方法完成后线程终止。
+ *                  2. 使用stop方法强行终止线程（这个方法不推荐使用，因为stop和suspend、resume一样，也可能发生不可预料的结果）。
+ *                     线程中不推荐使用Thread.stop()，它会释放所有monitor。可能会导致数据不一致性。
+ *                     其实stop方法天生就不安全，因为它在终止一个线程时会强制中断线程的执行，不管run方法是否执行完了，并且还会释放这个线程所持有的所有的锁对象。
+ *                  3. 使用interrupt方法中断线程。
+ *              线程的状态 创建->准备就绪->执行->阻塞->准备就绪->执行->死亡
  *              线程间的通信：Object中的wait、notify、notifyAll
  *              线程顺序调度、控制的方法：sleep、yield、join
  *              join；一个线程等待另一个线程（直到结束或者持续一段时间）才执行，那么谁等待谁？在哪个线程调用，哪个线程就会等待；调用的哪个Thread对象，就会等待哪个线程结束；
