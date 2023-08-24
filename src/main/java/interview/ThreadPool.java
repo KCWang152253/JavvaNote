@@ -49,6 +49,38 @@ import java.util.concurrent.*;
  *              上面讲到锁有四种状态，并且会因实际情况进行膨胀升级，其膨胀方向是：无锁——>偏向锁(一个线程使用)——>轻量级锁（两个线程，但是无竞争关系）——>重量级锁（两个线程，有竞争关系），
  *              并且膨胀方向不可逆。
  *
+ *              一、线程池执行流程分析：
+ *
+ *                  1、线程池中线程数小于corePoolSize时，新任务将创建一个新线程执行任务，不论此时线程池中存在空闲线程；
+ *                  2、线程池中线程数达到corePoolSize时，新任务将被放入workQueue中，等待线程池中任务调度执行；
+ *                  3、当workQueue已满，且maximumPoolSize>corePoolSize时，新任务会创建新线程执行任务；
+ *                  4、当workQueue已满，且提交任务数超过maximumPoolSize，任务由RejectedExecutionHandler处理；
+ *                  5、当线程池中线程数超过corePoolSize，且超过这部分的空闲时间达到keepAliveTime时，回收该线程；
+ *                  6、如果设置allowCoreThreadTimeOut(true)时，线程池中corePoolSize范围内的线程空闲时间达到keepAliveTime也将回收；
+ *
+ *              二、
+ *              五、workQueue 工作队列
+ *
+ *                  新任务被提交后，会先进入到此工作队列中，任务调度时再从队列中取出任务。jdk中提供了四种工作队列：
+ *
+ *                  ①ArrayBlockingQueue
+ *                  基于数组的有界阻塞队列，按FIFO排序。新任务进来后，会放到该队列的队尾，有界的数组可以防止资源耗尽问题。
+ *                  当线程池中线程数量达到corePoolSize后，再有新任务进来，则会将任务放入该队列的队尾，等待被调度。如果队列已经是满的，
+ *                  则创建一个新线程，如果线程数量已经达到maxPoolSize，则会执行拒绝策略。
+ *
+ *                  ②LinkedBlockingQuene
+ *                  基于链表的无界阻塞队列（其实最大容量为Interger.MAX），
+ *                  按照FIFO排序。由于该队列的近似无界性，当线程池中线程数量达到corePoolSize后，
+ *                  再有新任务进来，会一直存入该队列，而基本不会去创建新线程直到maxPoolSize（很难达到Interger.MAX这个数），
+ *                  因此使用该工作队列时，参数maxPoolSize其实是不起作用的。
+ *
+ *                  ③SynchronousQuene
+ *                  一个不缓存任务的阻塞队列，生产者放入一个任务必须等到消费者取出这个任务。也就是说新任务进来时，不会缓存，
+ *                  而是直接被调度执行该任务，如果没有可用线程，则创建新线程，如果线程数量达到maxPoolSize，则执行拒绝策略。
+ *
+ *                  ④PriorityBlockingQueue
+ *                  具有优先级的无界阻塞队列，优先级通过参数Comparator实现。
+ *
  * @date 2023/8/21 下午4:07
  */
 public class ThreadPool {
@@ -63,7 +95,7 @@ public class ThreadPool {
         new ThreadPool().a(() ->{
             int a =1;
         });
-//        new ThreadPool().a(() ->1);
+        //new ThreadPool().a(() ->1);
         //接口抽象方法没有返回值，引用的方法可以有返回值也可以没有
         new ThreadPool().a(new ThreadPool()::t1);
 
@@ -79,8 +111,22 @@ public class ThreadPool {
          *
          */
         ExecutorService pool = Executors.newFixedThreadPool(3);
-        ThreadPoolExecutor poo = new ThreadPoolExecutor(1, 3, 0L, TimeUnit.MILLISECONDS,
-                new LinkedBlockingQueue<Runnable>());
+        //创建线程池
+        ThreadPoolExecutor poo = new ThreadPoolExecutor(
+                0,
+                3,
+                2L,
+                TimeUnit.SECONDS,
+                new SynchronousQueue<>());
+
+        MyThread myThread = new MyThread();
+        MyThread myThread1 = new MyThread();
+        MyThread myThread2 = new MyThread();
+        poo.execute(myThread);
+        poo.execute(myThread1);
+        poo.execute(myThread2);
+        //待任务执行完成，关闭线程池
+        poo.shutdown();
     }
 
 
