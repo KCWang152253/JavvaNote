@@ -13,7 +13,7 @@ public class MyThread implements Runnable{
     public void run() {
 
 
-        Thread.sleep(100);
+        Thread.sleep(1000);
         System.out.println("多线程调试"+Thread.currentThread().getName());
     }
 }
