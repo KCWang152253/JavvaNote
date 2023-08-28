@@ -199,6 +199,16 @@ public class Tree {
     /**
      * 层序遍历
      *
+     * 在Java的标准库中，队列接口Queue定义了以下几个方法：
+     *
+     * int size()：获取队列长度；
+     *
+     * boolean add(E)/boolean offer(E)：添加元素到队尾；
+     *
+     * E remove()/E poll()：获取队首元素并从队列中删除；
+     *
+     * E element()/E peek()：获取队首元素但并不从队列中删除。
+     *
      * @param node
      * @return
      */
