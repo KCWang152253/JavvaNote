@@ -90,7 +90,6 @@ public class Jump {
                     return false;
                 }
             }
-
         }
         return true;
     }
