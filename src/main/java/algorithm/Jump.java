@@ -159,7 +159,8 @@ public class Jump {
 
 
     /***
-     * @Description 大部分都是这个思路，贪婪算法，我们每次在可跳范围内选择可以使得跳的更远的位置。
+     * @Description 返回到达 nums[n - 1] 的最小跳跃次数,
+     *              大部分都是这个思路，贪婪算法，我们每次在可跳范围内选择可以使得跳的更远的位置。
      * @param nums
      * @Return int
      * @Author K.C.Wang
@@ -209,11 +210,6 @@ public class Jump {
         }
         return steps;
     }
-
-
-
-
-
 
 
 }
