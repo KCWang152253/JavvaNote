@@ -156,4 +156,68 @@ public class Jump {
 
         return true;
     }
+
+
+    /***
+     * @Description 大部分都是这个思路，贪婪算法，我们每次在可跳范围内选择可以使得跳的更远的位置。
+     * @param nums
+     * @Return int
+     * @Author K.C.Wang
+     * @Date 2023/9/7 上午10:11
+     **/
+    public int jump(int[] nums) {
+        int end = 0;
+        int maxPosition = 0;
+        int steps = 0;
+        for(int i = 0; i < nums.length - 1; i++){
+            //找能跳的最远的
+            maxPosition = Math.max(maxPosition, nums[i] + i);
+            //遇到边界，就更新边界，并且步数加一
+            if( i == end){
+                end = maxPosition;
+                steps++;
+            }
+        }
+        return steps;
+    }
+
+    /***
+     * @Description
+     * 我们知道最终要到达最后一个位置，然后我们找前一个位置，遍历数组，找到能到达它的位置，
+     * 离它最远的就是要找的位置。然后继续找上上个位置，最后到了第 0 个位置就结束了。
+     * 至于离它最远的位置，其实我们从左到右遍历数组，第一个满足的位置就是我们要找的。
+     *
+     * @param nums
+     * @Return int
+     * @Author K.C.Wang
+     * @Date 2023/9/7 上午10:13
+     **/
+    public int jump2(int[] nums) {
+        //要找的位置
+        int position = nums.length - 1;
+        int steps = 0;
+        //是否到了第 0 个位置
+        while (position != 0) {
+            for (int i = 0; i < position; i++) {
+                if (nums[i] >= position - i) {
+                    //更新要找的位置
+                    position = i;
+                    steps++;
+                    break;
+                }
+            }
+        }
+        return steps;
+    }
+
+
+
+
+
+
+
 }
+
+
+
+
