@@ -22,9 +22,7 @@ public class Hindex {
     public int hIndex_1(String[] args) {
         int[] data = new int[]{3,0,6,1,5};
 
-        int length = data.length;
-        int max = 0;
-        int mid =0;
+        int length = data.length,max = 0,mid =0;
         boolean flag = true;
         while (flag){
             for (int i = 0; i <length ; i++) {
