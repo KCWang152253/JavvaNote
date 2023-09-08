@@ -9,6 +9,7 @@ package interview;
  * 1、重复入账 ,类中的全局变量被另一个线程修改了，线程池的线程复用时ThreadLocal的值没有清除
  * 2、性能优化大内存机制
  * 3、批量中断重试
+ * 4、
  */
 public class QuestionInProjiect {
 
