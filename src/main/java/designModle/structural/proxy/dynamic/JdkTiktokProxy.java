@@ -8,6 +8,10 @@ import java.lang.reflect.Proxy;
 /**
  * 敲10遍
  * @param <T>
+ *
+ *     动态代理使用场景
+ *     Mybatis Dao中有许多接口 真正连接数据库的增删改查实现是由代理对象去做的
+ *     UserMapper  ->MapperProxy
  */
 public class JdkTiktokProxy<T> implements InvocationHandler {
 

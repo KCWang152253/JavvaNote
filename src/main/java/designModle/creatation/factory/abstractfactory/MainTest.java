@@ -2,6 +2,7 @@ package designModle.creatation.factory.abstractfactory;
 
 
 /**
+ * 当产品族只有一个产品时：抽象工厂又退变成工厂方法
  * 抽象出来。
  *      可以抽象成接口（只有方法），可以抽象成抽象类（有些属性也需要用）
  */

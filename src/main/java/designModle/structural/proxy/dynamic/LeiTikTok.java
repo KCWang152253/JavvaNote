@@ -2,7 +2,7 @@ package designModle.structural.proxy.dynamic;
 
 //
 public class LeiTikTok  implements ManTikTok,SellTikTok {
-//    @Override
+    @Override
     public void tiktok() {
         System.out.println("雷丰阳，tiktok.... ");
     }

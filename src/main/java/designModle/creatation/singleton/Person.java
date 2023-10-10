@@ -18,7 +18,7 @@ public class Person {
 
     //提供给外部的方法
     //1、public static synchronized Person guiguBoss() 锁太大
-    //2、双重检查锁+内存可见性（设计模式）
+    //2、双重检查锁+内存可见性（volatile）（设计模式）
     public static Person guiguBoss() {
         //如果没有再去创建
         if (instance == null) {
