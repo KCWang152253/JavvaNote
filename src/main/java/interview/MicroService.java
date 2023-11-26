@@ -11,7 +11,7 @@ package interview;
  *
  *    微服务间的通信协议：
  *        目前主流的分布式服务框架使用两种传输协议。
- *          1）RPC协议：以HSF、Dubbo(集团内部不在用了)、Thrift、gRPC、Motan为代表的框架使用的协议。  RPC主要是基于TCP/IP协议
+ *          1）RPC协议：以HSF（集团内部目前使用）、Dubbo(集团内部不在用了)、Thrift、gRPC、Motan为代表的框架使用的协议。  RPC主要是基于TCP/IP协议
  *          2）HTTP REST协议：以Spring Cloud为代表的框架使用的协议。 HTTP  主要基于HTTP协议
  *             HTTP协议是在传输层协议TCP之上的，所以按照效率，RPC更高
  *             RPC:内部子系统多。系统间交互多，长链接，少了三次握手，减少了网络开销
