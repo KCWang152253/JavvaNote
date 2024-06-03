@@ -1,5 +1,7 @@
 package shangyin;
 
+import java.util.concurrent.CompletableFuture;
+
 /**
  * @author KCWang
  * @version 1.0 上海银行
@@ -17,6 +19,8 @@ public class ShangYin {
         int a = 5;
         a= a>>2;
         System.out.println(a);
+
+
 
     }
 
