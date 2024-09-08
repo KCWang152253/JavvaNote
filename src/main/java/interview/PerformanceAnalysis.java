@@ -30,5 +30,4 @@ package interview;
  *      内存：内存 共享机制，上下文策略，缓存读取和更新
  *      I/O：小对象传输、范围查询
  */
-public class PerformanceAnalysis {
-}
+public class PerformanceAnalysis {}
