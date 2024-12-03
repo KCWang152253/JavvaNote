@@ -35,6 +35,8 @@ public class MaxSubArray {
         String target = "abcdefghaa";
         System.out.println(findSunString(target));
 
+        new MaxSubArray().maxProfit_1();
+
         //交易次数不限的最大值
         new MaxSubArray().maxProfit(new int[]{1, 4, 6, 8});
         System.out.println(new MaxSubArray().maxProfit_2(new int[]{1, 4, 6, 8}));
@@ -131,7 +133,7 @@ public class MaxSubArray {
      * @Date 2023/8/15 下午9:16
      **/
     private int maxProfit_1() {
-        int[] a = {7, 6, 5, 4, 3, 1};
+        int[] a = {7, 6, 9, 4, 3, 1};
         int max = a[0];
         int min = a[0];
         boolean flag = false;
@@ -146,6 +148,26 @@ public class MaxSubArray {
         }
         return max - min;
     }
+
+    /**
+     * 找到最小值后迭代
+     * @param prices
+     * @return
+     */
+    public int maxProfit_1(int[] prices) {
+        int i, temp = 0, profit = 0;
+        for (i = 1; i < prices.length; i++) {
+            profit += prices[i] - prices[i - 1];
+            if (profit < 0) {
+                profit = 0;
+            }
+            if (profit > 0 && profit > temp) {
+                temp = profit;
+            }
+        }
+        return temp;
+    }
+
 
 
     public int maxProfit(int[] data) {
