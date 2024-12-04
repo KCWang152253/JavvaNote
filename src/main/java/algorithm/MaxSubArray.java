@@ -38,7 +38,7 @@ public class MaxSubArray {
         new MaxSubArray().maxProfit_1();
 
         //交易次数不限的最大值
-        new MaxSubArray().maxProfit(new int[]{1, 4, 6, 8});
+        new MaxSubArray().maxProfit(new int[]{10, 4, 3, 8});
         System.out.println(new MaxSubArray().maxProfit_2(new int[]{1, 4, 6, 8}));
         System.out.println(new MaxSubArray().maxProfit_3(new int[]{1, 4, 6, 8}));
         System.out.println(new MaxSubArray().maxProfit_4(new int[]{1, 4, 6, 8}));
@@ -215,7 +215,7 @@ public class MaxSubArray {
 
     dp[i][j] 表示到下标为 i 的这一天，持股状态为 j 时，我们手上拥有的最大现金数。
 
-    注意：限定持股状态为 j 是为了方便推导状态转移方程，这样的做法满足 无后效性。
+    注意：限定持股状态为 j 是为了方便推导状态转移方程，这样的做法满足 无后效性。（未来的状态和决策不会影响以前的状态、决策和目标）
 
     第 2 步：思考状态转移方程
     状态从持有现金（cash）开始，到最后一天我们关心的状态依然是持有现金（cash）；
