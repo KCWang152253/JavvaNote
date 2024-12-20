@@ -13,6 +13,8 @@ public enum Password {
     GIT_HUB("KCWang152253", "wangcheng152253"),
     Mysql("root", "kcwang"),
     闻喜华庭("闻喜华庭1幢1901房间密码","302798"),
+    postman_qq("KCWang","wangcheng152253"),
+    postman_sanofi("KCWang","KC!2zxcvbnm"),
     ;
     private String user;
     private String password;
