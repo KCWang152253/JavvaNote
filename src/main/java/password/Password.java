@@ -15,6 +15,7 @@ public enum Password {
     闻喜华庭("闻喜华庭1幢1901房间密码","302798"),
     postman_qq("KCWang","wangcheng152253"),
     postman_sanofi("KCWang","KC!2zxcvbnm"),
+    redis("默认无用户名密码","kcwang"),
     ;
     private String user;
     private String password;
