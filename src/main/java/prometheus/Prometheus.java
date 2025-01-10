@@ -16,10 +16,18 @@ public class Prometheus {
 
      docker run --name prometheus -d -p 9090:9090 prom/prometheus:v2.37.5
 
+     后台运行：run  -d  prom/prometheus:v2.37.5
+
+     docker run  -d -p 9090:9090 prom/prometheus:v2.37.5
+
+     挂载路径：  docker exec -it prometheus sh
+
+
      docker run --name prometheus -d -p 9090:9090 prom/prometheus  --config.file=/usr/local/prometheus/prometheus.yml
 
 
      docker run -d --name prometheus -p 9090:9090 -v  /usr/local/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml  prom/prometheus:v2.37.5
+     docker run -d  -p 9090:9090 -v  /usr/local/prometheus/prometheus.yml:/etc/prometheus  prom/prometheus:v2.37.5
 
 
 
@@ -31,9 +39,14 @@ public class Prometheus {
 
 
          docker run -d -p 3000:3000 --name=grafana  grafana/grafana:9.2.13
+         docker run -d -p 3000:3000   grafana/grafana:9.2.13
 
 
 
+     $ docker exec -it mycontainer bash
+     $ docker exec -it relaxed_snyder bash
+     $ docker exec -it blissful_galois bash
+     $ ls /app/data
 
 
 
