@@ -16,6 +16,7 @@ public enum Password {
     postman_qq("KCWang","wangcheng152253"),
     postman_sanofi("KCWang","KC!2zxcvbnm"),
     redis("默认无用户名密码","kcwang"),
+    mac_office("激.活.号：v817@new365.vip","密..码：Abc399971"),
     ;
     private String user;
     private String password;
