@@ -6,7 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
-@SpringBootApplication(scanBasePackages = "boot")
+@SpringBootApplication
 public class CardApplication {
 
     private static final Logger logger = LoggerFactory.getLogger(CardApplication.class);
