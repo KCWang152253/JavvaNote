@@ -1,3 +1,6 @@
+import baiduyun.juc.productconsumer.Producer;
+import baiduyun.juc.productconsumer.Product;
+
 import java.util.ArrayDeque;
 import java.util.Queue;
 

@@ -1,3 +1,4 @@
+package baiduyun.juc.productconsumer;
 
 import java.util.Queue;
 import java.util.Random;

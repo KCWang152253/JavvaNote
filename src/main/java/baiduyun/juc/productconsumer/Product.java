@@ -1,3 +1,5 @@
+package baiduyun.juc.productconsumer;
+
 /**
  * @author KCWang
  * @version 1.0

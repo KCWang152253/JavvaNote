@@ -11,7 +11,7 @@ public class RocketMq {
      *
      *
 
-     消费者： org.apache.rocketmq.example.simple :  Producer
+     消费者： org.apache.rocketmq.example.simple :  baiduyun.juc.productconsumer.Producer
      nameserver: NamesrvStartup
                  ROCKETMQ_HOME=/Users/kcwang/javaWeb/rocketmq-develop/rocketmqnamesrv/
      broker: BrokerStartup
