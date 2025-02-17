@@ -15,7 +15,7 @@ public class RocketMq {
      nameserver: NamesrvStartup
                  ROCKETMQ_HOME=/Users/kcwang/javaWeb/rocketmq-develop/rocketmqnamesrv/
      broker: BrokerStartup
-             -c  /Users/kcwang/javaWeb/rocketmq-develop/rocketmqnamesrv/conf/broker.conf
+             Program arguments: -c  /Users/kcwang/javaWeb/rocketmq-develop/rocketmqnamesrv/conf/broker.conf
              ROCKETMQ_HOME=/Users/kcwang/javaWeb/rocketmq-develop/rocketmqnamesrv;NAMESRV_ADDR=127.0.0.1:9876
 
 
