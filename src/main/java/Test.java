@@ -1,4 +1,7 @@
-import designModle.Person;
+import java.util.Arrays;
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author KCWang
@@ -7,11 +10,37 @@ import designModle.Person;
  */
 public class Test {
 
+    private volatile static Person person;
+
+
     public static void main(String[] args) {
 
-        //构建者模式
-        Person person = Person.builder().age(2).sex("男").build();
+        int[] ints = {1, 2, 3, 4};
+        Arrays.asList(ints);
+        new Test().getPerson();
 
-        System.out.println(person);
+        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(4, 5, 1, TimeUnit.SECONDS, new ArrayBlockingQueue(10, true));
+        for (int i = 0; i < 10; i++) {
+            threadPoolExecutor.execute(() -> System.out.println(Thread.currentThread().getName()));
+        }
+    }
+
+    private Person getPerson() {
+        if (person == null) {
+            synchronized (Person.class) {
+                if (person == null) {
+                    person = new Person();
+                }
+            }
+        }
+        return person;
+    }
+
+    class Person {
+
     }
 }
+
+
+
+
