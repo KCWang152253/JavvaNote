@@ -4,6 +4,21 @@ import java.util.Arrays;
 
 public class 快速排序 {
 
+
+    /**
+     *
+     *
+
+
+     从序列中随机挑出一个元素，做为基准（pivot，这里选择序列的最左边元素作为基准）；
+     重新排列序列，将所有比基准值小的元素摆放在基准前面，所有比基准值大的摆在基准的后面。该操作结束之后，
+     该基准就处于数列的中间位置。这个操作称为分区（partition）；
+     递归地把小于基准值元素的子序列和大于基准值元素的子序列进行上述操作即可。
+     *
+     *
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         int[] ints = {3, 4, 6, 1, 2, 4, 7};
         quickSort(ints);
