@@ -20,9 +20,26 @@ public class SpringBoot {
                 Spring 家自己的 spi 机制 加载全场景的配置类
                 List<String> configurations = SpringFactoriesLoader.loadFactoryNames(getSpringFactoriesLoaderFactoryClass()): 去类路径下加载 META-INF/spring.factories 的相关组件
                 Enumeration<URL> urls = (classLoader != null ? classLoader.getResources(FACTORIES_RESOURCE_LOCATION) :ClassLoader.getSystemResources(FACTORIES_RESOURCE_LOCATION));
-
             @AutoConfigurationPackage:
                 @Import(AutoConfigurationPackages.Registrar.class): 指定以后我们要扫描哪些包下的组件
+
+
+     加载tomcat  ServletWebServerFactoryAutoConfiguration 	ServletWebServerFactoryConfiguration.EmbeddedTomcat.class  和 springmvc DispatcherServletAutoConfiguration
+     @AutoConfiguration(after = ServletWebServerFactoryAutoConfiguration.class)
+     springboot 底层使用的ioc容器：  AnnotationConfigServletWebServerApplicationContext
+                public class AnnotationConfigServletWebServerApplicationContext extends ServletWebServerApplicationContext（实现onFresh 加载tomcat）
+
+     TomcatServletWebServerFactory: 会根据initializers 加载 DispatcherServlet  RegistrationBean -》 onStartup-〉 register(description, servletContext)  注册
+         ServletContextInitializer[] initializersToUse = mergeInitializers(initializers);
+         host.addChild(context);
+         configureContext(context, initializersToUse);
+
+     DispatcherServletRegistrationBean （可以自定义组件）就是  ServletContextInitializer
+
+     FilterRegistrationBean 也可以注册原生的servlet 组件
+
+
+
 
 
 
