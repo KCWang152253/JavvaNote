@@ -22,6 +22,7 @@ public class zk {
 
      //停止
      $ bin/zkServer.sh stop
+        sudo sh  zkServer.sh stop
 
 
 
