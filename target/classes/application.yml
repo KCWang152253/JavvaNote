@@ -1,0 +1,32 @@
+server:
+  port: @server.port@
+spring:
+  application:
+    name: @project.name@
+    version: 1.0-SNAPSHOT
+
+
+
+card:
+  # 相同纸牌分值时的花色等级配置
+  color: A B C D
+  # 玩家名称配置
+  name:
+    array: 甲,乙,丙,丁
+  #  牌的分值映射配置
+  score:
+    number_1: 1
+    number_2: 2
+    number_3: 3
+    number_4: 4
+    number_5: 5
+    number_6: 6
+    number_7: 7
+    number_8: 8
+    number_9: 9
+    number_10: 10
+    number_j: 11
+    number_q: 12
+    number_k: 13
+    number_20q: 20
+    number_20k: 20

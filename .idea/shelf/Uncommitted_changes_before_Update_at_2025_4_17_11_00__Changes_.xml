@@ -1,0 +1,817 @@
+<changelist name="Uncommitted_changes_before_Update_at_2025_4_17_11_00_[Changes]" date="1744858845720" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_4_17_11_00_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 2025/4/17 11:00 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/singleton/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/adapter/obj/JPMoviePlayerAdapter.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/interrupt/MyNumber.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/abstractfactory/AbstractCar.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/proxy/cglib/CglibTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/interpreter/IDCardExpression.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/lockupgrade/TrainTicket.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/dockerandmaven/DockerAndMaven.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/cas/AtomicReferenceDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/linux/Linux.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/tl/ThreadLocalDateUtils.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/interview/ShardingJDBC.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/jmm/SingletonDemo$SingletonDemoHandler.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/decorator/TiktokDecorator.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/algorithm/Test.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/tl/MovieTicket.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/zookeeper/zk.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/shangyin/ShangYin.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/command/OnlineCommand.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/simplefactory/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/interview/ThreadPool.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/factorymethod/AbstractCar.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/pojo/User.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/locks/DeadLockDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/strategy/GameStrategy.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/lockupgrade/MyObject.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/simplefactory/MiniCar.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/abstractfactory/WulinVanCarFactory.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/proxy/statics/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/chain/ext/Response.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/utils/ErrorUtils.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/cas/ABADemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/visitor/Foot.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/jmm/SingletonDemo$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/proxy/cglib/CglibProxy$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/cas/SpinLockDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/decorator/MeiYanDecorator.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/chain/ext/HttpFilter.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/factorymethod/VanCar.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/atomics/BankAccount.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/locks/Phone.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/simplefactory/WuLinSimpleFactory.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/proxy/dynamic/SellTikTok.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/decorator/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/abstractfactory/WulinMaskFactory.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/cf/FutureTaskDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/atomics/LongAdderCalcDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/interview/LockAndDistributionLock.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/abstractfactory/VanCar.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/atomics/MyVar.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/bridge/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/bridge/AbstractSale.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/proxy/cglib/CglibProxy.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/abstractfactory/RacingCar.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/adapter/obj/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/utils/RandomUtils.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/mediator/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/facade/Police.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/interrupt/LockSupportDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/iterator/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/mediator/SC8633.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/interpreter/TerminalExpression.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/batch/Retry.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/proxy/cglib/LeiTikTok.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/composite/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/decorator/ManTikTok.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/facade/Edu.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/jmm/SingletonDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/rwlock/ReentrantReadWriteLockDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/abstractfactory/WulinRacingCarFactory.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/jmm/MyNumber.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/template/CookTemplate.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/builder/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/memento/GameRecord.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/algorithm/Arrays.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/interpreter/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/interview/Mybatis.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/algorithm/动态规划法/爬楼梯.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/abstractfactory/CommonMask.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/atomics/ClickNumber.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/lockupgrade/LockBigDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/observer/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/tl/House.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/utils/ObjectPropertyUtil.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/chain/ext/FilterChain.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/prometheus/Prometheus.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/cf/CompletableFutureNetMallDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/proxy/dynamic/ManTikTok.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/state/MatchState.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/visitor/Disk.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/factorymethod/AbstractCarFactory.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/visitor/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/prototype/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/interview/JVM.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/rwlock/MyResource.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/template/AutoCookMachine.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/state/TeamState.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/locks/SaleTicketDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/adapter/Player.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/utils/ReflectUtils.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/locks/LockByteCodeDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/tl/ReferenceDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/adapter/MoviePlayer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/chain/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/atomics/User.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/memento/GameServer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/state/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/proxy/statics/LiMingTiktokProxy.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/flyweight/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/command/TeacherTongInvoker.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/singleton/Person.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/interrupt/InterruptDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/state/BeafNodleState.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/atomics/MyNumber.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/cas/CASDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/observer/RobotFans.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/proxy/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/bridge/OfflineSale.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/proxy/dynamic/LeiTikTok.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/algorithm/Tree.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/jmm/VolatileNoAtomicDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/facade/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/abstractfactory/WulinHangZhouMaskFactory.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/test/Book.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/interview/SqlOptimize.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/Person.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/dubbo/dubbo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/atomics/AtomicReferenceFieldUpdaterDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/proxy/dynamic/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/chain/ext/CharacterFilter.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/command/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/strategy/UziStrategy.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/cf/CompletableFutureDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/algorithm/TreeNode.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/bridge/IPhone.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/abstractfactory/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/memento/LeiGamer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/flyweight/ZuDao.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/interpreter/Area.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/abstractfactory/WulinWuHanMaskFactory.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/algorithm/Hindex.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/cf/CompletableFutureAPIDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/elk/Elk.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/chain/ext/My.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/mediator/ControlTower.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/password/Password.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/atomics/AtomicIntegerArrayDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/jmm/VolatileSeeDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/adapter/clazz/JPMoviePlayerAdapter.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/Person$PersonBuilder.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/adapter/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/locks/Lock8Demo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/proxy/dynamic/JdkTiktokProxy.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/utils/DateUtils.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/facade/Social.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/utils/StreamUse.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/rwlock/StampedLockDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/builder/Phone.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/observer/HumanFans.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/locks/ReEntryLockDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/state/SKTTeam.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/adapter/Zh_JPTranslator.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/proxy/statics/LeiTikTok.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/bashthread/DaemonDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/redis/启动安装.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/builder/Phone$PhoneBuilder.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/rocketmq/RocketMq.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/flyweight/BeautifulWaitress.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/observer/MMTikToker.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/interview/MyThread.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/atomics/LongAdderAPIDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/strategy/TeamGNR.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/jmm/SafeDoubleCheckSingleton.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/factorymethod/WulinRacingCarFactory.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/simplefactory/VanCar.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/objecthead/ObjectHeadDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/visitor/Vistor.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/interview/HighConcurrency.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/iterator/BeautifulMan$Iterator.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/redis/Redis.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/builder/AbstractBuilder.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/adapter/clazz/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/lockupgrade/SaleTicketDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/observer/AbstractTikToker.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/builder/XiaomiBuilder.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/bridge/AbstractPhone.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/decorator/LeiTikTok.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/visitor/UpdatePackage.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/atomics/AtomicIntegerDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/proxy/statics/ManTikTok.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/bridge/MiPhone.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/interview/ThreadLocalUse.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/factorymethod/WulinVanCarFactory.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/rwlock/LockDownGradingDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/tl/ThreadLocalDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/iterator/BeautifulMan.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/iterator/MaYuCheng.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/aqs/AQSDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/interview/HashCodeAndEquals.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/adapter/JPMovieAdapter.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/algorithm/MaxSubArray.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/composite/Menu.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/lockupgrade/LockUpgradeDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/interview/QuestionInProjiect.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/adapter/Translator.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/abstractfactory/WulinCarFactory.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/command/LeiReceiver.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/chain/ext/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/interview/Message.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/state/VocationState.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/abstractfactory/WulinFactory.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/iterator/BeautifulMan$Itr.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/shangyin/Document.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/interview/PerformanceAnalysis.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/chain/ext/EncodingFilter.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/interview/MicroService.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/prototype/GuiguMybatis.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/command/WuHanTravelCommand.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/flyweight/AbstractWaitressFlyweight.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/chain/ext/Request.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/tl/MyObject.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/memento/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/cas/User.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/visitor/Hardware.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/factorymethod/WulinMinCarFactory.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/command/Command.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/interview/Transaction.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/atomics/LongAdderAPIDemo$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/cf/NetMall.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/bridge/StudentSale.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/abstractfactory/AbstractMask.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/chain/ext/Filter.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/interpreter/OrExpression.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/factorymethod/MiniCar.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/mediator/XC9527.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/strategy/RandomStrategy.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/atomics/AtomicMarkableReferenceDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/facade/WeiXinFacade.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/algorithm/SortAlgorithm.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/atomics/AtomicReferenceDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/observer/AbstractFans.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/mediator/HU8778.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/strategy/SteadyStrategy.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/atomics/AtomicIntegerFieldUpdaterDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/factorymethod/RacingCar.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/lockupgrade/LockClearUPDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/visitor/CPU.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/proxy/statics/ZhangTikTok.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/git/Git.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/algorithm/Jump.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/test/T1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/interrupt/T1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/Test.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/interview/Collections.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/mediator/Captain.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/strategy/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/abstractfactory/N95Mask.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/develop/DevelopRule.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/locks/Ticket.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/template/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/visitor/XiaoAi.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/bridge/OnlineSale.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/baiduyun/juc/Juc2021Application.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/prototype/User.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/behavioral/chain/Teacher.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/structural/decorator/ZhangTikTok.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/log/Log.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/factorymethod/MainTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/designModle/creatation/factory/simplefactory/AbstractCar.class" />
+  </binary>
+</changelist>
