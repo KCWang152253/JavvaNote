@@ -83,6 +83,9 @@ public class SpringBoot {
      AutoConfigurationImportSelector、AutoConfigurationImportFilter、AutoConfigurationImportListener 和 AutoConfigurationImportEvent 共同构成了 Spring Boot 自动配置机制的核心组件。它们协同工作，使得开发者能够更精细地控制自动配置的行为，以满足项目的特定需求。通过定制这些组件，开发者可以排除不必要的自动配置、添加自定义的自动配置类或在自动配置导入过程中执行自定义逻辑。这些功能使得 Spring Boot 应用更加灵活和可定制，提高了开发效率和应用的稳定性。
 
 
+     spring 自身 PostProcessor的注册 4个
+     AnnotationConfigUtils.registerAnnotationConfigProcessors，就是在这里完成了AutowiredAnnotationBeanPostProcessor的注册
+
      *
      *
      *
