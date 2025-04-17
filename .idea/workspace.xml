@@ -5,340 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d875f3b5-4aa8-402e-abb7-2ca544351ff8" name="Changes" comment="算法">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/javaNote.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ObjectPropertyUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ObjectPropertyUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/Arrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/Hindex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/Jump.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/MaxSubArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/SortAlgorithm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/动态规划法/爬楼梯.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/Juc2021Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/aqs/AQSDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/atomics/AtomicIntegerArrayDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/atomics/AtomicIntegerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/atomics/AtomicIntegerFieldUpdaterDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/atomics/AtomicMarkableReferenceDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/atomics/AtomicReferenceDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/atomics/AtomicReferenceFieldUpdaterDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/atomics/BankAccount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/atomics/ClickNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/atomics/LongAdderAPIDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/atomics/LongAdderAPIDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/atomics/LongAdderCalcDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/atomics/MyNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/atomics/MyVar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/atomics/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/bashthread/DaemonDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/cas/ABADemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/cas/AtomicReferenceDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/cas/CASDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/cas/SpinLockDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/cas/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/cf/CompletableFutureAPIDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/cf/CompletableFutureDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/cf/CompletableFutureNetMallDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/cf/FutureTaskDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/cf/NetMall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/interrupt/InterruptDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/interrupt/LockSupportDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/interrupt/MyNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/interrupt/T1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/jmm/MyNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/jmm/SafeDoubleCheckSingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/jmm/SingletonDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/jmm/SingletonDemo$SingletonDemoHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/jmm/SingletonDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/jmm/VolatileNoAtomicDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/jmm/VolatileSeeDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/locks/DeadLockDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/locks/Lock8Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/locks/LockByteCodeDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/locks/Phone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/locks/ReEntryLockDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/locks/SaleTicketDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/locks/Ticket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/lockupgrade/LockBigDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/lockupgrade/LockClearUPDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/lockupgrade/LockUpgradeDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/lockupgrade/MyObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/lockupgrade/SaleTicketDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/lockupgrade/TrainTicket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/objecthead/ObjectHeadDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/rwlock/LockDownGradingDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/rwlock/MyResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/rwlock/ReentrantReadWriteLockDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/rwlock/StampedLockDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/test/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/test/T1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/tl/House.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/tl/MovieTicket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/tl/MyObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/tl/ReferenceDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/tl/ThreadLocalDateUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baiduyun/juc/tl/ThreadLocalDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/batch/Retry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/Person$PersonBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/chain/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/chain/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/chain/ext/CharacterFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/chain/ext/EncodingFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/chain/ext/Filter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/chain/ext/FilterChain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/chain/ext/HttpFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/chain/ext/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/chain/ext/My.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/chain/ext/Request.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/chain/ext/Response.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/command/Command.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/command/LeiReceiver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/command/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/command/OnlineCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/command/TeacherTongInvoker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/command/WuHanTravelCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/interpreter/Area.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/interpreter/IDCardExpression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/interpreter/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/interpreter/OrExpression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/interpreter/TerminalExpression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/iterator/BeautifulMan$Iterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/iterator/BeautifulMan$Itr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/iterator/BeautifulMan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/iterator/MaYuCheng.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/iterator/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/mediator/Captain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/mediator/ControlTower.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/mediator/HU8778.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/mediator/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/mediator/SC8633.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/mediator/XC9527.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/memento/GameRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/memento/GameServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/memento/LeiGamer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/memento/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/observer/AbstractFans.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/observer/AbstractTikToker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/observer/HumanFans.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/observer/MMTikToker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/observer/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/observer/RobotFans.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/state/BeafNodleState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/state/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/state/MatchState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/state/SKTTeam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/state/TeamState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/state/VocationState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/strategy/GameStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/strategy/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/strategy/RandomStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/strategy/SteadyStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/strategy/TeamGNR.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/strategy/UziStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/template/AutoCookMachine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/template/CookTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/template/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/visitor/CPU.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/visitor/Disk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/visitor/Foot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/visitor/Hardware.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/visitor/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/visitor/UpdatePackage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/visitor/Vistor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/behavioral/visitor/XiaoAi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/builder/AbstractBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/builder/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/builder/Phone$PhoneBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/builder/Phone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/builder/XiaomiBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/abstractfactory/AbstractCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/abstractfactory/AbstractMask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/abstractfactory/CommonMask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/abstractfactory/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/abstractfactory/N95Mask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/abstractfactory/RacingCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/abstractfactory/VanCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/abstractfactory/WulinCarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/abstractfactory/WulinFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/abstractfactory/WulinHangZhouMaskFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/abstractfactory/WulinMaskFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/abstractfactory/WulinRacingCarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/abstractfactory/WulinVanCarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/abstractfactory/WulinWuHanMaskFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/factorymethod/AbstractCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/factorymethod/AbstractCarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/factorymethod/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/factorymethod/MiniCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/factorymethod/RacingCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/factorymethod/VanCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/factorymethod/WulinMinCarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/factorymethod/WulinRacingCarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/factorymethod/WulinVanCarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/simplefactory/AbstractCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/simplefactory/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/simplefactory/MiniCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/simplefactory/VanCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/factory/simplefactory/WuLinSimpleFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/prototype/GuiguMybatis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/prototype/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/prototype/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/singleton/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/creatation/singleton/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/adapter/JPMovieAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/adapter/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/adapter/MoviePlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/adapter/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/adapter/Translator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/adapter/Zh_JPTranslator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/adapter/clazz/JPMoviePlayerAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/adapter/clazz/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/adapter/obj/JPMoviePlayerAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/adapter/obj/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/bridge/AbstractPhone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/bridge/AbstractSale.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/bridge/IPhone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/bridge/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/bridge/MiPhone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/bridge/OfflineSale.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/bridge/OnlineSale.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/bridge/StudentSale.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/composite/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/composite/Menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/decorator/LeiTikTok.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/decorator/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/decorator/ManTikTok.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/decorator/MeiYanDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/decorator/TiktokDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/decorator/ZhangTikTok.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/facade/Edu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/facade/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/facade/Police.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/facade/Social.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/facade/WeiXinFacade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/flyweight/AbstractWaitressFlyweight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/flyweight/BeautifulWaitress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/flyweight/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/flyweight/ZuDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/proxy/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/proxy/cglib/CglibProxy$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/proxy/cglib/CglibProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/proxy/cglib/CglibTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/proxy/cglib/LeiTikTok.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/proxy/dynamic/JdkTiktokProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/proxy/dynamic/LeiTikTok.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/proxy/dynamic/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/proxy/dynamic/ManTikTok.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/proxy/dynamic/SellTikTok.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/proxy/statics/LeiTikTok.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/proxy/statics/LiMingTiktokProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/proxy/statics/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/proxy/statics/ManTikTok.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designModle/structural/proxy/statics/ZhangTikTok.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/develop/DevelopRule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dockerandmaven/DockerAndMaven.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dubbo/dubbo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/elk/Elk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/git/Git.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interview/Collections.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interview/HashCodeAndEquals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interview/HighConcurrency.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interview/JVM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interview/LockAndDistributionLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interview/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interview/MicroService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interview/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interview/Mybatis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interview/PerformanceAnalysis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interview/QuestionInProjiect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interview/ShardingJDBC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interview/SqlOptimize.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interview/ThreadLocalUse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interview/ThreadPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interview/Transaction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/linux/Linux.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log/Log.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/password/Password.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/prometheus/Prometheus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/redis/Redis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/redis/启动安装.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rocketmq/RocketMq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shangyin/Document.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shangyin/ShangYin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/DateUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/ErrorUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/ObjectPropertyUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/RandomUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/ReflectUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/StreamUse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zookeeper/zk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/SpringBoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/SpringBoot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -374,32 +41,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Test.executor": "Debug",
-    "Application.Test01.executor": "Debug",
-    "Application.冒泡排序.executor": "Debug",
-    "Application.基数排序.executor": "Debug",
-    "Application.堆排序.executor": "Debug",
-    "Application.希尔排序.executor": "Debug",
-    "Application.归并排序.executor": "Debug",
-    "Application.快速排序.executor": "Debug",
-    "Application.插入排序.executor": "Debug",
-    "Application.桶排序.executor": "Debug",
-    "Application.计数排序.executor": "Debug",
-    "Application.选择排序.executor": "Debug",
-    "Maven.JavaNote [clean].executor": "Run",
-    "Maven.JavaNote [compile].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.50190693",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Test.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Test01.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.冒泡排序.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.基数排序.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.堆排序.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.希尔排序.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.归并排序.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.快速排序.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.插入排序.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.桶排序.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.计数排序.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.选择排序.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.JavaNote [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.JavaNote [compile].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.50190693&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="堆排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.排序.堆排序" />
@@ -513,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743502314276</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="算法">
+      <option name="closed" value="true" />
+      <created>1744858910386</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744858910386</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnknownFeatures">

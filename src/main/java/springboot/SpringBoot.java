@@ -14,7 +14,7 @@ public class SpringBoot {
      支持的各种组件集成列表官网：  https://docs.spring.io/spring-boot/reference/using/build-systems.html
 
      运行原理：
-         @SpringBootConfiguration  仅仅代表是一个配置类 会被配置相关后置处理器处: ConfigurationClassPostProcessor
+         @SpringBootConfiguration  仅仅代表是一个配置类 会被配置相关后置处理器处: ConfigurationClassPostProcessor 会处理 @Configuration @Bean @Import @PropertySource等
          @EnableAutoConfiguration:
             @Import(AutoConfigurationImportSelector.class):
                 Spring 家自己的 spi 机制 加载全场景的配置类
