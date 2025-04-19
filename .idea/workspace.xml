@@ -22,7 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="761a4133-1201-4427-b8c0-4dc239e728f5" name="Default Changelist" comment="算法" />
+    <list default="true" id="761a4133-1201-4427-b8c0-4dc239e728f5" name="Default Changelist" comment="算法">
+      <change afterPath="$PROJECT_DIR$/src/main/java/maven/Maven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/password/Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/password/Password.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,7 +194,7 @@
       <workItem from="1744621393877" duration="1785000" />
       <workItem from="1744676397869" duration="1617000" />
       <workItem from="1744684392629" duration="892000" />
-      <workItem from="1744796145667" duration="6535000" />
+      <workItem from="1744796145667" duration="8683000" />
     </task>
     <task id="LOCAL-00063" summary="二叉树">
       <created>1693376804431</created>
@@ -534,7 +539,7 @@
       <option name="project" value="LOCAL" />
       <updated>1742522012596</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
