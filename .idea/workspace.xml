@@ -3,9 +3,29 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d875f3b5-4aa8-402e-abb7-2ca544351ff8" name="Changes" comment="算法">
+    <list default="true" id="761a4133-1201-4427-b8c0-4dc239e728f5" name="Default Changelist" comment="算法">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2025_4_18_10_32_取消提交了更改_[Default_Changelist]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/password/Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/password/Password.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,218 +35,551 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-15.0.1.jdk/Contents/Home/lib/src.zip!/java.xml.crypto/com/sun/org/slf4j/internal/Logger.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/rt.jar!/com/sun/org/slf4j/internal/Logger.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="customMavenHome" value="C:\maven\apache-maven-3.8.8-bin\apache-maven-3.8.8" />
+        <option name="customMavenHome" value="$PROJECT_DIR$/../java/Maven/apache-maven-3.3.9" />
         <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../java/Maven/apache-maven-3.3.9/conf/settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="15" />
+        <option name="vmOptionsForImporter" value="-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true " />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
+  &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="2uWp8LeitL1fc4O9p8hPhzUT55w" />
+  <component name="ProjectId" id="2SNySBbGd791BLrXhIB9jQRYaLy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;Application.Test.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Test01.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.冒泡排序.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.基数排序.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.堆排序.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.希尔排序.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.归并排序.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.快速排序.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.插入排序.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.桶排序.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.计数排序.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.选择排序.executor&quot;: &quot;Debug&quot;,
     &quot;Maven.JavaNote [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.JavaNote [compile].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.50190693&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/card" />
+      <recent name="$PROJECT_DIR$/src/main/java/boot" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/java/baiduyun" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="z" />
+      <recent name="boot" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="堆排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.排序.堆排序" />
-      <module name="JavaNote" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.排序.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="冒泡排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.排序.冒泡排序" />
-      <module name="JavaNote" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.排序.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="选择排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.排序.选择排序" />
-      <module name="JavaNote" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.排序.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="插入排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.排序.插入排序" />
-      <module name="JavaNote" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.排序.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="希尔排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.排序.希尔排序" />
-      <module name="JavaNote" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.排序.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.堆排序" />
-      </list>
-    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d875f3b5-4aa8-402e-abb7-2ca544351ff8" name="Changes" comment="" />
-      <created>1742374023862</created>
+      <changelist id="761a4133-1201-4427-b8c0-4dc239e728f5" name="Default Changelist" comment="" />
+      <created>1689001330822</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1742374023862</updated>
+      <updated>1689001330822</updated>
+      <workItem from="1689001332110" duration="43152000" />
+      <workItem from="1689657003859" duration="10781000" />
+      <workItem from="1690271803691" duration="71403000" />
+      <workItem from="1692530319243" duration="12795000" />
+      <workItem from="1692666832806" duration="34064000" />
+      <workItem from="1693182832141" duration="614000" />
+      <workItem from="1693202418419" duration="9184000" />
+      <workItem from="1693213274904" duration="6344000" />
+      <workItem from="1693377428141" duration="12876000" />
+      <workItem from="1693482761139" duration="12398000" />
+      <workItem from="1694056784531" duration="10048000" />
+      <workItem from="1694223573712" duration="1795000" />
+      <workItem from="1694394403628" duration="4238000" />
+      <workItem from="1694739503770" duration="8620000" />
+      <workItem from="1695215370497" duration="6667000" />
+      <workItem from="1695276857010" duration="31381000" />
+      <workItem from="1698644218687" duration="63275000" />
+      <workItem from="1705276426182" duration="39283000" />
+      <workItem from="1712641146208" duration="5449000" />
+      <workItem from="1716083746699" duration="6232000" />
+      <workItem from="1717557650820" duration="4923000" />
+      <workItem from="1718706928286" duration="1847000" />
+      <workItem from="1718765389692" duration="156000" />
+      <workItem from="1718765384657" duration="8322000" />
+      <workItem from="1720398644381" duration="192000" />
+      <workItem from="1721093197616" duration="1028000" />
+      <workItem from="1721094479741" duration="3915000" />
+      <workItem from="1723886678687" duration="760000" />
+      <workItem from="1725795020226" duration="1370000" />
+      <workItem from="1727178669887" duration="115000" />
+      <workItem from="1727434422007" duration="1923000" />
+      <workItem from="1729004132395" duration="360000" />
+      <workItem from="1729400429727" duration="15000" />
+      <workItem from="1730812085473" duration="672000" />
+      <workItem from="1731851361375" duration="589000" />
+      <workItem from="1731853074602" duration="582000" />
+      <workItem from="1731934445076" duration="54194000" />
+      <workItem from="1733667163718" duration="593000" />
+      <workItem from="1733928380976" duration="3240000" />
+      <workItem from="1734157837824" duration="1940000" />
+      <workItem from="1734186473127" duration="1733000" />
+      <workItem from="1734198063839" duration="5863000" />
+      <workItem from="1734681999954" duration="1232000" />
+      <workItem from="1734697663140" duration="1513000" />
+      <workItem from="1734763068146" duration="3399000" />
+      <workItem from="1734959320291" duration="8735000" />
+      <workItem from="1735636106317" duration="24259000" />
+      <workItem from="1738640067576" duration="32150000" />
+      <workItem from="1742713959378" duration="595000" />
+      <workItem from="1742715237878" duration="1850000" />
+      <workItem from="1742718772901" duration="457000" />
+      <workItem from="1742719410120" duration="2906000" />
+      <workItem from="1742738069390" duration="2516000" />
+      <workItem from="1742782433189" duration="592000" />
+      <workItem from="1742786163808" duration="2323000" />
+      <workItem from="1744463599708" duration="384000" />
+      <workItem from="1744466207882" duration="591000" />
+      <workItem from="1744467067858" duration="2365000" />
+      <workItem from="1744531022852" duration="910000" />
+      <workItem from="1744621393877" duration="1785000" />
+      <workItem from="1744676397869" duration="1617000" />
+      <workItem from="1744684392629" duration="892000" />
+      <workItem from="1744796145667" duration="13069000" />
     </task>
-    <task id="LOCAL-00001" summary="a">
-      <option name="closed" value="true" />
-      <created>1742378627561</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+    <task id="LOCAL-00063" summary="二叉树">
+      <created>1693376804431</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
       <option name="project" value="LOCAL" />
-      <updated>1742378627561</updated>
+      <updated>1693376804432</updated>
     </task>
-    <task id="LOCAL-00002" summary="a">
-      <option name="closed" value="true" />
-      <created>1742534816855</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
+    <task id="LOCAL-00064" summary="二叉树">
+      <created>1693391562926</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
       <option name="project" value="LOCAL" />
-      <updated>1742534816855</updated>
+      <updated>1693391562926</updated>
     </task>
-    <task id="LOCAL-00003" summary="算法">
-      <option name="closed" value="true" />
-      <created>1743485786009</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
+    <task id="LOCAL-00065" summary="jump">
+      <created>1694053008440</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
       <option name="project" value="LOCAL" />
-      <updated>1743485786009</updated>
+      <updated>1694053008441</updated>
     </task>
-    <task id="LOCAL-00004" summary="算法">
-      <option name="closed" value="true" />
-      <created>1743502314276</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
+    <task id="LOCAL-00066" summary="jump">
+      <created>1694053069749</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
       <option name="project" value="LOCAL" />
-      <updated>1743502314276</updated>
+      <updated>1694053069749</updated>
     </task>
-    <task id="LOCAL-00005" summary="算法">
-      <option name="closed" value="true" />
-      <created>1744858910386</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
+    <task id="LOCAL-00067" summary="jump">
+      <created>1694139911926</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
       <option name="project" value="LOCAL" />
-      <updated>1744858910386</updated>
+      <updated>1694139911927</updated>
     </task>
-    <task id="LOCAL-00006" summary="算法">
-      <option name="closed" value="true" />
-      <created>1744859364516</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
+    <task id="LOCAL-00068" summary="Hindex">
+      <created>1694140373580</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
       <option name="project" value="LOCAL" />
-      <updated>1744859364516</updated>
+      <updated>1694140373580</updated>
     </task>
-    <task id="LOCAL-00007" summary="算法">
-      <option name="closed" value="true" />
-      <created>1744871364778</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
+    <task id="LOCAL-00069" summary="Hindex">
+      <created>1694158861318</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
       <option name="project" value="LOCAL" />
-      <updated>1744871364778</updated>
+      <updated>1694158861318</updated>
     </task>
-    <task id="LOCAL-00008" summary="算法">
-      <option name="closed" value="true" />
-      <created>1744878043508</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
+    <task id="LOCAL-00070" summary="Hindex">
+      <created>1694159038194</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
       <option name="project" value="LOCAL" />
-      <updated>1744878043508</updated>
+      <updated>1694159038194</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00071" summary="Hindex">
+      <created>1695010584656</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1695010584656</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Hindex">
+      <created>1695293485809</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1695293485811</updated>
+    </task>
+    <task id="LOCAL-00073" summary="设计模式">
+      <created>1696307504804</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1696307504805</updated>
+    </task>
+    <task id="LOCAL-00074" summary="设计模式">
+      <created>1696936462233</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1696936462233</updated>
+    </task>
+    <task id="LOCAL-00075" summary="设计模式">
+      <created>1697182666600</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1697182666600</updated>
+    </task>
+    <task id="LOCAL-00076" summary="设计模式">
+      <created>1697251277709</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1697251277709</updated>
+    </task>
+    <task id="LOCAL-00077" summary="设计模式">
+      <created>1697451869487</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1697451869487</updated>
+    </task>
+    <task id="LOCAL-00078" summary="设计模式">
+      <created>1697984340292</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1697984340292</updated>
+    </task>
+    <task id="LOCAL-00079" summary="设计模式">
+      <created>1698994653983</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1698994653983</updated>
+    </task>
+    <task id="LOCAL-00080" summary="设计模式">
+      <created>1699491577224</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1699491577224</updated>
+    </task>
+    <task id="LOCAL-00081" summary="设计模式">
+      <created>1699841726859</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1699841726859</updated>
+    </task>
+    <task id="LOCAL-00082" summary="设计模式">
+      <created>1700988584272</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1700988584272</updated>
+    </task>
+    <task id="LOCAL-00083" summary="设计模式">
+      <created>1700988638749</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1700988638749</updated>
+    </task>
+    <task id="LOCAL-00084" summary="上银密码">
+      <created>1703136968964</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1703136968964</updated>
+    </task>
+    <task id="LOCAL-00085" summary="juc">
+      <created>1703432651148</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1703432651148</updated>
+    </task>
+    <task id="LOCAL-00086" summary="juc">
+      <created>1709943951250</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1709943951251</updated>
+    </task>
+    <task id="LOCAL-00087" summary="juc">
+      <created>1710982503424</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1710982503424</updated>
+    </task>
+    <task id="LOCAL-00088" summary="juc">
+      <created>1711082022847</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1711082022847</updated>
+    </task>
+    <task id="LOCAL-00089" summary="juc">
+      <created>1717375730151</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1717375730152</updated>
+    </task>
+    <task id="LOCAL-00090" summary="juc">
+      <created>1718505290962</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1718505290962</updated>
+    </task>
+    <task id="LOCAL-00091" summary="juc">
+      <created>1725796036545</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1725796036545</updated>
+    </task>
+    <task id="LOCAL-00092" summary="juc">
+      <created>1732110221319</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1732110221321</updated>
+    </task>
+    <task id="LOCAL-00093" summary="juc">
+      <created>1733239111230</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1733239111230</updated>
+    </task>
+    <task id="LOCAL-00094" summary="juc">
+      <created>1733292748140</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1733292748140</updated>
+    </task>
+    <task id="LOCAL-00095" summary="juc">
+      <created>1734198938402</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1734198938402</updated>
+    </task>
+    <task id="LOCAL-00096" summary="juc">
+      <created>1734446371439</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1734446371439</updated>
+    </task>
+    <task id="LOCAL-00097" summary="juc">
+      <created>1734657451387</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1734657451388</updated>
+    </task>
+    <task id="LOCAL-00098" summary="juc">
+      <created>1734791184830</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1734791184831</updated>
+    </task>
+    <task id="LOCAL-00099" summary="juc">
+      <created>1734877032625</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1734877032626</updated>
+    </task>
+    <task id="LOCAL-00100" summary="juc">
+      <created>1735477669946</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1735477669949</updated>
+    </task>
+    <task id="LOCAL-00101" summary="juc">
+      <created>1736490603663</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1736490603664</updated>
+    </task>
+    <task id="LOCAL-00102" summary="juc">
+      <created>1736505300670</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1736505300670</updated>
+    </task>
+    <task id="LOCAL-00103" summary="juc">
+      <created>1737288080866</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1737288080866</updated>
+    </task>
+    <task id="LOCAL-00104" summary="juc">
+      <created>1737288095993</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1737288095994</updated>
+    </task>
+    <task id="LOCAL-00105" summary="juc">
+      <created>1737776962798</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1737776962798</updated>
+    </task>
+    <task id="LOCAL-00106" summary="juc">
+      <created>1737945723088</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1737945723088</updated>
+    </task>
+    <task id="LOCAL-00107" summary="juc">
+      <created>1738421048747</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1738421048747</updated>
+    </task>
+    <task id="LOCAL-00108" summary="juc">
+      <created>1738421186708</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1738421186709</updated>
+    </task>
+    <task id="LOCAL-00109" summary="juc">
+      <created>1739803015473</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1739803015473</updated>
+    </task>
+    <task id="LOCAL-00110" summary="juc">
+      <created>1742451670680</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1742451670680</updated>
+    </task>
+    <task id="LOCAL-00111" summary="算法">
+      <created>1742522012596</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1742522012596</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
-  <component name="UnknownFeatures">
-    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
-    <option featureType="com.intellij.facetType" implementationName="Spring" />
-    <option featureType="dependencySupport" implementationName="java:org.hibernate.validator:hibernate-validator" />
-    <option featureType="dependencySupport" implementationName="java:javax.validation:validation-api" />
-    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
-    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
-    <option featureType="com.intellij.facetType" implementationName="web" />
-    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="a" />
+    <MESSAGE value="20230710" />
+    <MESSAGE value="20230712" />
+    <MESSAGE value="20230717 Redis" />
+    <MESSAGE value="20230719 Redis" />
+    <MESSAGE value="20230724 Linux" />
+    <MESSAGE value="20230729 Linux" />
+    <MESSAGE value="20230801 Linux" />
+    <MESSAGE value="20230801 Hashmap" />
+    <MESSAGE value="20230803 Hashmap" />
+    <MESSAGE value="20230804 Mq" />
+    <MESSAGE value="20230806 Mq" />
+    <MESSAGE value="上海银行" />
+    <MESSAGE value="mq和上海银行" />
+    <MESSAGE value="微服务" />
+    <MESSAGE value="密码" />
+    <MESSAGE value="stream" />
+    <MESSAGE value="线程" />
+    <MESSAGE value="线程池" />
+    <MESSAGE value="二叉树" />
+    <MESSAGE value="jump" />
+    <MESSAGE value="Hindex" />
+    <MESSAGE value="设计模式" />
+    <MESSAGE value="上银密码" />
+    <MESSAGE value="juc" />
     <MESSAGE value="算法" />
     <option name="LAST_COMMIT_MESSAGE" value="算法" />
   </component>
@@ -234,9 +587,89 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/algorithm/排序/堆排序.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/Arrays.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/util/Arrays.java</url>
+          <line>5034</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/lang/Thread.java</url>
+          <line>368</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/Jump.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/Jump.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/MaxSubArray.java</url>
+          <line>205</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/MaxSubArray.java</url>
+          <line>207</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/MaxSubArray.java</url>
+          <line>254</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/Test.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/Test.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test01.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test01.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test01.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test01.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test01.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

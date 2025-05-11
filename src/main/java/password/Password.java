@@ -17,6 +17,10 @@ public enum Password {
     postman_sanofi("KCWang","KC!2zxcvbnm"),
     redis("默认无用户名密码","kcwang"),
     mac_office("激.活.号：v817@new365.vip","密..码：Abc399971"),
+    gmail_1994("kcwang1994@gmail.com","密..码：wangcheng152253"),
+    github("KCWang152253","密..码：wangcheng152253"),
+    hsbc("kckc","密..码：Wanaa53!"),
+    qq("2747962529@qq.com","密..码：wangcheng_152253 渣打： Wangcheng_152253  "),
     ;
     private String user;
     private String password;
