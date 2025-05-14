@@ -21,6 +21,8 @@ public enum Password {
     github("KCWang152253","密..码：wangcheng152253"),
     hsbc("kckc","密..码：Wanaa53!"),
     qq("2747962529@qq.com","密..码：wangcheng_152253 渣打： Wangcheng_152253  "),
+    teams("kcwang1994@outlook.com","密..码：wangcheng_152253   "),
+    zoom("名：kc  姓：wang    ","密..码：Wangcheng_152253   "),
     ;
     private String user;
     private String password;
