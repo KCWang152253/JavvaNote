@@ -12,7 +12,7 @@ public class 二分查找 {
         int[] ints = {3, 4, 6, 1, 2, 5, 7};
 
         System.out.println("递归 结果 :"+binarysearch(ints,0,ints.length-1,5));
-        System.out.println("递归 结果 :"+bsearchWithoutRecursion(ints,5));
+        System.out.println("非递归 结果 :"+bsearchWithoutRecursion(ints,5));
     }
 
     public static int binarysearch(int array[], int low, int high, int target) {
