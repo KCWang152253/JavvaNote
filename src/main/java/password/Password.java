@@ -23,6 +23,11 @@ public enum Password {
     qq("2747962529@qq.com","密..码：wangcheng_152253 渣打： Wangcheng_152253  "),
     teams("kcwang1994@outlook.com","密..码：wangcheng_152253   "),
     zoom("名：kc  姓：wang    ","密..码：Wangcheng_152253   "),
+    Apple("Username：wkc152253@icloud.com    ","密..码：Wangcheng123456!   "),
+    GOTO("Username：g001675    ","密..码：KC!1zxcvbnm   "),
+    GOTO_EMAIL("Username：kecheng.wang@gojek.com    ","密..码：kc!1kc!1zxcvbnm   "),
+    // Temporary Password: 654GUk"D   Username: g001675 kc!1zxcvbnm  KC!1zxcvbnm  654GUk"D
+
     ;
     private String user;
     private String password;
